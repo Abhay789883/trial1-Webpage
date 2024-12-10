@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #ffebcd;
+            margin: 0;
+            padding: 20px;
+            color: #000080;
+            text-align: center;
+        }
+
+        h1 {
+            color: #ff4500;
+            font-size: 48px;
+            text-shadow: 2px 2px 5px #ffffff;
+            background-color: #00ff00;
+            padding: 10px;
+            border-radius: 15px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            border: 5px dashed #ff00ff;
+            background-color: #ffff00;
+        }
+
+        th {
+            padding: 15px;
+            text-align: left;
+            background-color: #00ffff;
+            color: #000000;
+            font-size: 24px;
+            border: 3px dotted #ff0000;
+        }
+
+        td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #008000;
+            font-size: 18px;
+            color: #800080;
+            background-color: #f0e68c;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #ffa500;
+        }
+
+        tr:nth-child(even) {
+            background-color: #add8e6;
+        }
+
+        tr:hover {
+            background-color: #ff1493;
+            color: #ffffff;
+        }
+
+        pre {
+            background-color: #e0ffff;
+            border: 2px solid #ff6347;
+            border-radius: 5px;
+            padding: 10px;
+            font-family: 'Courier New', Courier, monospace;
+            color: #2e8b57;
+            font-size: 20px;
+        }
+
+        .footer {
+            font-size: 22px;
+            color: #ffa07a;
+            margin-top: 20px;
+            background-color: #8b0000;
+            padding: 10px;
+            border-radius: 10px;
+            text-shadow: 1px 1px 2px #ffffff;
+        }
+
+        form {
+            background-color: #ffffff;
+            border: 2px solid #ff6347;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            margin: 20px auto;
+        }
+
+        label {
+            font-size: 18px;
+            color: #000080;
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"] {
+            width: 90%;
+            padding: 10px;
+            margin: 5px 0 20px;
+            border: 1px solid #ff6347;
+            border-radius: 5px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        button {
+            background-color: #ff6347;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #ff4500;
+        }
+
+        .message {
+            font-size: 18px;
+            color: #008000;
+            display: none;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            table,
+            th,
+            td {
+                font-size: 16px;
+                padding: 8px;
+            }
+
+            pre {
+                font-size: 16px;
+            }
+
+            .footer {
+                font-size: 18px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            table {
+                display: block;
+                overflow-x: auto;
+                white-space: nowrap;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <marquee behavior="" direction="">Welcome to my Webpage</marquee>
+    <center>
+        <h1>Python</h1>
+    </center>
+    <p>Python is a high level general-purpose programming language. It uses a multi-paradigm approach, meaning it
+        supports procedural, object-oriented, and some functional programming constructs.
+        It was created by Guido van Rossum as a successor to another language (called ABC) between 1985 and 1990, and is
+        currently used on a large array of domains like web development, desktop applications, data science, DevOps, and
+        automation/productivity.
+        Python is developed under an OSI-approved open source license, making it freely usable and distributable, even
+        for commercial use. Python's license is administered by the <a href="">Python Software Foundation.</a></p>
+
+    <h2>Uses of Python</h2>
+    <p>Python is a versatile programming language with many uses, including:</p>
+    <ul>
+        <li>Web development: Python is used for building websites because of its simple syntax.</li>
+        <li>Data analysis: Python is used for data analysis and visualization.</li>
+        <li>Task automation: Python can automate repetitive tasks, such as generating reports and interacting with
+            business databases.</li>
+        <li>Game development: Python is used for game development because of its object-oriented programming techniques
+            and natural syntax.</li>
+        <li>Artificial intelligence and machine learning: Python is used for AI and machine learning because of its
+            simplicity, code dependability, and execution speed.</li>
+        <li>Web scraping: Python is used for web scraping because of its simplicity, versatility, and abundance of
+            libraries.</li>
+        <li>Desktop GUI: Python is used for designing graphical user interfaces because of its built-in tools and
+            libraries.</li>
+        <li>Software development: Python is used for software development because of its assistance with scripting, task
+            automation, and managing repetitive tasks.</li>
+        <li>Data science: Python is used for data science because of its data structures and ease of use.</li>
+    </ul>
+
+    <h3>Python Docs</h3>
+    <a href="https://docs.python.org">Documentation</a>
+
+    <h2>Features of Python</h2>
+    <img src="https://d2ms8rpfqc4h24.cloudfront.net/main_features_of_python_6cc84bbdb8.jpg" alt=""
+        style="max-width: 100%; height: auto;">
+    <ul>
+        <li>Object-Oriented Language</li>
+        <li>GUI Programming Support</li>
+        <li>Interpreted Language</li>
+        <li>Automatic Garbage Collection</li>
+        <li>Large Standard Library</li>
+        <li>Dynamic Memory Allocation</li>
+        <li>Beginner-Friendly</li>
+        <li>Dynamically Typed and Type Checking</li>
+    </ul>
+
+    <h2>Advantages of Python</h2>
+    <p>By leveraging Python ecosystems and Python frameworks, you can get the following advantages:</p>
+    <ul>
+        <li>A Pool of Third-party Modules</li>
+        <li>Open Source and Large Active Community Base</li>
+        <li>User-friendly Data Structures</li>
+        <li>Dynamically Typed</li>
+        <li>Portability</li>
+        <li>Versatile - Easy to Read, Learn and Write</li>
+    </ul>
+
+    <h2>Disadvantages of Python</h2>
+    <p>Even Python has some limitations, which are:</p>
+    <ul>
+        <li>Slow Speed</li>
+        <li>Memory Intensive</li>
+        <li>Weak In Mobile Computing</li>
+        <li>Runtime Errors</li>
+        <li>Not Optimized for Database Access</li>
+        <li>No Multithreading Support</li>
+    </ul>
+
+    <h2>Difference between Python and Java</h2>
+    <img src="https://d2ms8rpfqc4h24.cloudfront.net/python_vs_java_f500c3cc6d.gif" alt=""
+        style="max-width: 100%; height: auto;">
+
+    <h1>Java vs Python Comparison</h1>
+
+    <table>
+        <tr>
+            <th>Parameters</th>
+            <th>Java</th>
+            <th>Python</th>
+        </tr>
+        <tr>
+            <td>Compilation</td>
+            <td>Java is a compiled language.</td>
+            <td>Python is an interpreted language.</td>
+        </tr>
+        <tr>
+            <td>Static/Dynamic</td>
+            <td>Java is a static-typed programming language.</td>
+            <td>Python is a dynamic-typed programming language.</td>
+        </tr>
+        <tr>
+            <td>Code</td>
+            <td>Java has long lines of code.</td>
+            <td>Python has generally fewer lines of code.</td>
+        </tr>
+        <tr>
+            <td>Learning Curve and Code Readability</td>
+            <td>Java is difficult to learn and read.</td>
+            <td>Python is easier to learn and read.</td>
+        </tr>
+        <tr>
+            <td>Performance</td>
+            <td>It’s static and faster.</td>
+            <td>It’s dynamic and slower.</td>
+        </tr>
+        <tr>
+            <td>Classes</td>
+            <td>Java uses Getter and Setter functions.</td>
+            <td>Refers to a variable directly.</td>
+        </tr>
+        <tr>
+            <td>Architecture</td>
+            <td>JVM runs codes and converts bytecode into machine-readable language.</td>
+            <td>Python translates into machine-independent byte code.</td>
+        </tr>
+        <tr>
+            <td>Best Feature</td>
+            <td>GUI apps and web app services.</td>
+            <td>Scientific and numeric computing, especially ML.</td>
+        </tr>
+        <tr>
+            <td>Backend Frameworks</td>
+            <td>Spring, Blade</td>
+            <td>Django, Flask</td>
+        </tr>
+        <tr>
+            <td>Game Development Engines</td>
+            <td>JMonkeyEngine</td>
+            <td>Cocos, Panda3d</td>
+        </tr>
+        <tr>
+            <td>Database Support</td>
+            <td>It offers stable connectivity.</td>
+            <td>It offers weak connectivity.</td>
+        </tr>
+        <tr>
+            <td>Code Example</td>
+            <td>
+                <pre>
+class A {
+    public static void main(String args[]) {
+        System.out.println("Java vs Python Article");
+    }
+}
+                </pre>
+            </td>
+            <td>
+                <pre>
+print("Java vs Python Article")
+                </pre>
+            </td>
+        </tr>
+        <tr>
+            <td>Companies Using It</td>
+            <td>Docker, Android SDK, Spring Boot, Sentry, etc.</td>
+            <td>Django, Flask, PyCharm, CircleCI, etc.</td>
+        </tr>
+    </table>
+    <h2>Python vs java</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/PqrQ7q6dIyY?si=gdRfnTdJiTDH0hIl"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h1>Python vs Java Poll</h1>
+    <p>We'd love to hear your thoughts on Python and Java! Please fill out the form below.</p>
+
+    <form id="pollForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        <br>
+
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+        <br>
+
+        <label for="contact">Contact Number:</label>
+        <input type="tel" id="contact" name="contact" placeholder="Your Contact Number" required>
+        <br>
+
+        <label>Which language do you prefer?</label>
+        <div>
+            <input type="radio" id="python" name="language" value="Python" required>
+            <label for="python">Python</label>
+        </div>
+        <div>
+            <input type="radio" id="java" name="language" value="Java">
+            <label for="java">Java</label>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div class="footer">
+        <p>Explore the chaotic world of programming!</p>
+    </div>
+    <div>
+        <p>The end</p>
+    </div>
+</body>
+
+</html>
